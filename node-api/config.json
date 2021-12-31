@@ -2,7 +2,7 @@
     "slug": "node_api",
     "name": "Nodejs API",
     "version": "1.0.0",
-    "url": "https://github.com/xxxx",
+    "url": "https://github.com/vuits24/home-assistant-addons-nodejs-api",
     "stage": "stable",
     "description": "Tao nodejs addons test",
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
