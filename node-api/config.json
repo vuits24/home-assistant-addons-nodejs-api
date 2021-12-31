@@ -1,0 +1,18 @@
+{
+    "slug": "node_api",
+    "name": "Nodejs API",
+    "version": "1.0.0",
+    "url": "https://github.com/xxxx",
+    "stage": "stable",
+    "description": "Tao nodejs addons test",
+    "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+    "startup": "services",
+    "boot": "auto",
+    "ports": {
+      "3000/tcp": 3000
+    },
+    "ports_description": {
+      "3000/tcp": "Webservice API"
+    },
+    "map": []    
+  }
