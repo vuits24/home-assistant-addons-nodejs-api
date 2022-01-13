@@ -14,5 +14,6 @@
     "ports_description": {
       "3000/tcp": "Webservice API"
     },
+"options": {config: "{}"},
     "map": []    
   }
