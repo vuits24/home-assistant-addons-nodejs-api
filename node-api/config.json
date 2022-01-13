@@ -14,6 +14,22 @@
     "ports_description": {
       "3000/tcp": "Webservice API"
     },
-"options": {config: "{}"},
-    "map": []    
+    "options": {
+  "message": "custom things",
+  "logins": [
+    { "username": "beer", "password": "123456" },
+    { "username": "cheep", "password": "654321" }
+  ],
+  "random": ["haha", "hihi", "huhu", "hghg"],
+  "link": "http://blebla.com/"
+},
+    "map": []   ,
+    "schema":{
+  "message": "str",
+  "logins": [
+    { "username": "str", "password": "str" }
+  ],
+  "random": ["str"],
+  "link": "url"
+}
   }
