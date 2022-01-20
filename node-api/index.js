@@ -16,6 +16,6 @@ var saveConfig = async () => {
  
 };
 app.listen(port, "0.0.0.0",  () => {
- // saveConfig();
+ saveConfig();
   console.log(`Lắng nghe sự kiện dưới trang http://0.0.0.0:${port}`)
 })
