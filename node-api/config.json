@@ -14,22 +14,32 @@
     "ports_description": {
       "3000/tcp": "Webservice API"
     },
-    "options": {
-  "message": "custom things",
-  "logins": [
-    { "username": "beer", "password": "123456" },
-    { "username": "cheep", "password": "654321" }
-  ],
-  "random": ["haha", "hihi", "huhu", "hghg"],
-  "link": "http://blebla.com/"
-},
     "map": []   ,
+    "options": {
+      "google": {
+        "clientId": "",
+        "clientSecret": "",
+        "redirectAllowUrl": "",
+        "redirectDenyUrl": ""     
+      },
+      "config": [
+        {"api_key": "123456789", "serialNumber": "5401010847DCED952230C3091421D692", "pin": "123456"}
+      ],
+      "timeUpdate": 60 ,
+      "hostToken": "http://localhost:3002"
+    } ,
     "schema":{
-  "message": "str",
-  "logins": [
-    { "username": "str", "password": "str" }
-  ],
-  "random": ["str"],
-  "link": "url"
-}
+      "google": {
+        "clientId": "str",
+        "clientSecret": "str",
+        "redirectAllowUrl": "str",
+        "redirectDenyUrl": "str" 
+      },
+      "config": [
+        {"api_key": "str", "serialNumber": "str", "pin": "str"}
+      ],
+      "timeUpdate": "int",
+      "hostToken": "str"
+    }
+
   }
